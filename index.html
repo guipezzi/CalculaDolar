@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalculaDolar</title>
+    <!-- CSS -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <h1>CalculaDolar</h1>
+    </header>
+    <main>
+        <form id="form">
+            <section class="inputs-container">
+                <div class="form-group">
+                    <label for="value-real">Valor a ser convertido (R$):</label>
+                    <input type="number" name="valorReal" max="1000000" id="valorReal"
+                        placeholder="Digite o valor em reais">
+                </div>
+                <div class="form-group">
+                    <label for="currency">Escolha a Moeda:</label>
+                    <select id="currency" name="moeda">
+                        <option value=""> Selecione...</option>
+                        <option value="USD">Dólar Americano (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="GBP">Libra Esterlina (GBP)</option>
+                    </select>
+                </div>
+            </section>
+            <button type="submit">Converter</button>
+        </form>
+        <h2 id="result"></h2>
+    </main>
+    <footer>
+        <span>
+            &copy; 2024 CalculaDolar. Todos os direitos reservados.
+        </span>
+    </footer>
 </body>
+
 </html>
