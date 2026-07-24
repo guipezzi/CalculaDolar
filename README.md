@@ -46,26 +46,6 @@ O projeto foi desenvolvido com foco em praticar conceitos fundamentais do desenv
 
 ---
 
-## 📂 Estrutura do projeto
-
-```text
-CalculaDolar/
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── assets/
-│   └── preview.png
-│
-├── index.html
-└── README.md
-```
-
----
-
 ## 🚀 Como executar o projeto
 
 Clone o repositório:
@@ -102,37 +82,3 @@ Este projeto foi desenvolvido para praticar:
 - Desenvolvimento de interfaces responsivas
 
 ---
-
-## 📸 Demonstração
-
-<p align="center">
-  <img src="./assets/preview.png" width="900">
-</p>
-
----
-
-## 🔮 Melhorias futuras
-
-- [ ] Buscar cotações em tempo real através de API
-- [ ] Histórico das conversões
-- [ ] Conversão entre quaisquer moedas
-- [ ] Modo escuro
-- [ ] Máscara automática para valores em Real
-- [ ] Internacionalização da interface
-- [ ] Animações durante a conversão
-
----
-
-## 🤝 Contribuições
-
-Contribuições são sempre bem-vindas!
-
-Caso tenha alguma sugestão ou encontre algum problema, fique à vontade para abrir uma **Issue** ou enviar um **Pull Request**.
-
----
-
-## 👨‍💻 Autor
-
-Desenvolvido por **Guilherme Pezzi**.
-
-Se gostou do projeto, deixe uma ⭐ no repositório!
