@@ -23,13 +23,13 @@ function convert() {
     let valueConverted;
 
     if (selectCurrency.value === "EUR") {
-        valueConverted = inputValue.value * 5.79;
+        valueConverted = inputValue.value / 5.79;
         result.innerHTML = `O valor convertido é: ${valueConverted.toFixed(2)} EUR`;
     } else if (selectCurrency.value === "USD") {
-        valueConverted = inputValue.value * 5.09;
+        valueConverted = inputValue.value / 5.09;
         result.innerHTML = `O valor convertido é: ${valueConverted.toFixed(2)} USD`;
     } else if (selectCurrency.value === "GBP") {
-        valueConverted = inputValue.value * 6.79;
+        valueConverted = inputValue.value / 6.79;
         result.innerHTML = `O valor convertido é: ${valueConverted.toFixed(2)} GBP`;
     }
 
