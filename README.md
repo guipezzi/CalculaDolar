@@ -1,10 +1,6 @@
 # 💱 CalculaDolar
 
 <p align="center">
-  <img src="./assets/preview.png" alt="Preview do projeto" width="900">
-</p>
-
-<p align="center">
   <strong>Um conversor de moedas moderno, rápido e intuitivo desenvolvido com HTML, CSS e JavaScript.</strong>
 </p>
 
