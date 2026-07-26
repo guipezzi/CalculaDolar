@@ -68,7 +68,7 @@ Ou utilize a extensão **Live Server** do VS Code.
 
 ## 🎯 Objetivos do projeto
 
-Este projeto foi desenvolvido para praticar:
+Este simples projeto foi desenvolvido para praticar:
 
 - Manipulação do DOM
 - Eventos em JavaScript
